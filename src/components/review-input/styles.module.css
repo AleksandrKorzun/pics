@@ -1,0 +1,49 @@
+.container_input {
+    position: sticky;
+    bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.review_input{
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 22px;
+    width: calc(100% - 30px);
+    min-height: 100px;
+    resize: none;
+    padding: 15px;
+    outline: none;
+}
+.button_send{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(30%, -80%);
+    background-color: rgb(109, 80, 6);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer
+}
+.button_send:hover{
+    background-color: rgb(163, 138, 74);
+}
+.label_name{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 18px;
+}
+.input_name {
+    height: 20px;
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 14px;
+}

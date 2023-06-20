@@ -1,0 +1,73 @@
+.review_wrapper{
+    position: relative;
+    width: 650px;
+    height: 100px;
+    background-color: rgb(190, 190, 150);
+    margin-bottom: 35px;
+}
+.review_name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-20%, -50%);
+    background-color: rgb(109, 80, 6);
+    width: 150px;
+    color: wheat;
+}
+.review_name__initial{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-45%, -15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(109, 80, 6);
+}
+
+.review_name__full{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_delete{
+    position: absolute;
+    transform: translate(50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    background: rgb(109, 80, 6);
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.review_delete:hover{
+    background-color: antiquewhite;
+}
+.review_icon{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+}
+.review_text{
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+    padding: 20px 10px;
+}
